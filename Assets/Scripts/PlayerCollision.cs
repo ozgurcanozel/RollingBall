@@ -4,12 +4,15 @@ public class PlayerCollision : MonoBehaviour
 {
 
     public PlayerMovement movement;
+    
  
     void OnCollisionEnter (Collision collisionInfo)
     {
-      if(collisionInfo.collider.tag == "Obstacle")
+      if (collisionInfo.collider.tag == "Obstacle")
         {
-            movement.enabled = false;
+           movement.enabled = false;
+            FindObjectOfType<GAmeManager>().EndGame();
+
         }
     }
 

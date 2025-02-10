@@ -23,5 +23,11 @@ public class PlayerMovement : MonoBehaviour
         {
             rb.AddForce(-sideawaysForce * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
         }
+
+
+        if(rb.position.y < -1f)
+        {
+            FindObjectOfType<GAmeManager>().EndGame();
+        }
     }
 }

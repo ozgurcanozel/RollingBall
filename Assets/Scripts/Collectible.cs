@@ -6,10 +6,13 @@ public class Collectible : MonoBehaviour
     public static event Action OnCollected;
     public static int total;
 
-    void Awake() => total++;
+    void Awake()
+    {
+        total++;
+    }
     void Update()
     {
-        transform.localRotation = Quaternion.Euler(90f, Time.time * 100f, 0);
+        transform.localRotation = Quaternion.Euler(0, Time.time * 100f, 0);
     }
 
     void OnTriggerEnter(Collider other)
@@ -19,6 +22,10 @@ public class Collectible : MonoBehaviour
             OnCollected?.Invoke();
             Destroy(gameObject);
         }
+    }
+    private void OnDestroy()
+    {
+        total--;
     }
 }
 

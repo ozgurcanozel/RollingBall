@@ -7,7 +7,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/özgürcan özel" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="özgürcan özel" height="30" width="40" /></a>
+<a href="[https://linkedin.com/in/özgürcan özel](https://www.linkedin.com/in/%C3%B6zg%C3%BCrcan-%C3%B6zel-0a82a9212/)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="özgürcan özel" height="30" width="40" /></a>
 <a href="https://www.hackerrank.com/ozgurozel365" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/hackerrank.svg" alt="ozgurozel365" height="30" width="40" /></a>
 </p>
 

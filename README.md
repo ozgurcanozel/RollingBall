@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Özgürcan ÖZEL</h1>
+<h1 align="center">Hi 👋, I'm Ozgurcan Ozel</h1>
 <h3 align="center">ROLLING BALL</h3>
 
 - 🌱 I’m currently learning **C#, Python, C++**
